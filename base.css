@@ -2,7 +2,7 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: #f1f1f1;
+    background-color: #d5dbdb5e;
     display: flex;
     justify-content: center;
 }
@@ -11,7 +11,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+
 }
 .main {
     display: flex;
@@ -20,11 +20,20 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
     padding: 10px 20px 0px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+ul {
+    list-style-type: none;
+    padding: 20px;
+
+}
 .header {
-    background-color: rgb(5, 108, 108);
     min-height: 150px;
 }
 .content {
@@ -32,7 +41,62 @@ body {
     min-height: 300px;
     padding: 20px;
 }
+
+h1 {
+    margin-bottom: 50px;
+}
+.especialidades {
+    display: inline-block;
+    text-align: center;
+    width: 148.8px;
+    height: 20px;
+    margin: 5px;
+    padding: 15px;
+    background-color: #408ff4;
+    color: #f1f1f1;
+}
+h3 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.sobre {
+    text-align: center;
+    color: #0630b9;
+}
+
+.descricao {
+    font-size: 30px;
+    color: #0630b9;
+}
+h6 {
+    color: #0630b9;
+    font-size: 20px;
+    text-align: center;
+}
+
+.atendimento {
+    text-align: center;
+}
+table {
+    border: 1px solid rgba(0, 0, 0, 0.281);
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: #b4ababb7;
+}
+th {
+    padding: 15px 20px 0px 10px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    
+}
+td {
+    text-align: center;
+}
 .footer {
-    background-color: rgb(99, 56, 240);
+    text-align: center;
+    background-color: rgba(90,182,197,255);
     min-height: 150px;
 }
